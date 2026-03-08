@@ -1,0 +1,6 @@
+{
+    "values": [
+    "vred_lib:load",
+    "player_motion:internal/technical/load"
+]
+}

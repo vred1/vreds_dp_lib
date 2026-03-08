@@ -1,0 +1,2 @@
+data modify storage vred_lib:right_click vred_lib set from entity @s SelectedItem.components."minecraft:custom_data".vred_lib
+function vred_lib:component/interaction/right_click/2 with storage vred_lib:right_click vred_lib

@@ -1,0 +1,71 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+              "minecraft:custom_data": "{vred_lib:{interaction:\"no_shift\"}}"
+          }
+        }
+      },"type_specific": {
+              "type": "player",
+              "gamemode": [
+                "adventure","creative","survival"
+              ]
+            }
+    }},
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+              "minecraft:custom_data": "{vred_lib:{interaction:\"no_shift\"}}"
+          }
+        }
+      },"type_specific": {
+              "type": "player",
+              "gamemode": [
+                "adventure","creative","survival"
+              ]
+            }
+    }},
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+              "minecraft:custom_data": "{vred_lib:{interaction:\"shift\"}}"
+              }
+            }
+          }
+        }},
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sneaking": true
+            },
+            "type_specific": {
+              "type": "player",
+              "gamemode": [
+                "adventure","creative","survival"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

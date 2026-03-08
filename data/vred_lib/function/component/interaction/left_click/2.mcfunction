@@ -1,0 +1,1 @@
+$execute if predicate vred_lib:int run function $(namespace):$(weapon_id)/left_click

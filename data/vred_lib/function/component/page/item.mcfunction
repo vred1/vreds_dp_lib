@@ -1,0 +1,2 @@
+execute as @e[distance=..20,type=item] at @s if items entity @s contents *[custom_data~{vred_lib:{scrollable:true}}] if function vred_lib:component/page/check in vred:data_void run function vred_lib:component/page/edit/1
+tag @s remove scrollable.item

@@ -1,0 +1,1 @@
+return run execute on origin unless items entity @s[tag=scrollable.item] weapon.mainhand *[custom_data~{vred_lib:{scrollable:true}}]

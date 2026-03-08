@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:bow"
+            ],
+            "predicates": {
+              "minecraft:custom_data": "{vred_lib:{weapon_type:bow}}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vred_lib:component/bow/holding"
+    }
+  }
