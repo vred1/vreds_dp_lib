@@ -1,0 +1,1 @@
+$function $(namespace):$(weapon_id)/entity_hit

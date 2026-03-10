@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+              "minecraft:custom_data": "{vred_lib:{entity_hit_effect:true}}"
+              }
+            }
+          }
+        }
+      }}
+    },
+    "rewards": {
+      "function": "vred_lib:component/entity_hit/1"
+    }
+  }
+  

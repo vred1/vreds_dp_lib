@@ -1,0 +1,48 @@
+[{
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "predicates": {
+              "minecraft:custom_data": "{vred_lib:{armor:{double_sneak_effect:true}}}"
+            }
+          }
+        }
+      }},
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "chest": {
+              "predicates": {
+              "minecraft:custom_data": "{vred_lib:{armor:{double_sneak_effect:true}}}"
+            }
+          }
+        }
+      }},
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "legs": {
+              "predicates": {
+              "minecraft:custom_data": "{vred_lib:{armor:{double_sneak_effect:true}}}"
+            }
+          }
+        }
+      }},
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "predicates": {
+              "minecraft:custom_data": "{vred_lib:{armor:{double_sneak_effect:true}}}"
+            }
+          }
+        }
+      }}]

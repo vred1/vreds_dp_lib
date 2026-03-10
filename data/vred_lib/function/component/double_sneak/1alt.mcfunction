@@ -1,0 +1,1 @@
+execute if predicate vred_lib:double_sneak/all run function 

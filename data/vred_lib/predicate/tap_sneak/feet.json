@@ -1,0 +1,13 @@
+[{
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "predicates": {
+              "minecraft:custom_data": "{vred_lib:{feet:{tap_sneak_effect:true}}}"
+            }
+          }
+        }
+      
+      }}]

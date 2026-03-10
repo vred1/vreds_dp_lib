@@ -4,6 +4,10 @@ scoreboard players remove @s[scores={sneak_cooldown=1..}] sneak_cooldown 1
 scoreboard players add @s[scores={sneak=2..}] sneak_timer 1
 execute if score @s sneak_timer > @s sneak if predicate vred_lib:sneak store success score @s sneak_timer run function vred_lib:component/double_sneak/base
 
+execute if score @s component.tap_sneak matches 1 run function vred_lib:component/tap_sneak/base
+execute if score @s component.tap_sneak1 = @s component.tap_sneak run scoreboard players set @s component.tap_sneak 0
+scoreboard players operation @s component.tap_sneak1 = @s component.tap_sneak
+
 execute if items entity @s weapon.mainhand *[custom_data~{vred_lib:{weapon_type:bow}}] run function vred_lib:component/bow/tick
 execute unless items entity @s[tag=component.bow.holding] weapon.mainhand *[custom_data~{vred_lib:{weapon_type:bow}}] run function vred_lib:component/bow/check/reset1
 scoreboard players set @s component.bow.shot 0

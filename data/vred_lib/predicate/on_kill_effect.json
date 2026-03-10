@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {"condition": "reference",
+    "name": "vred_lib:tap_sneak/all"},
+    {"condition": "reference",
+    "name": "vred_lib:tap_sneak/head"},
+    {"condition": "reference",
+    "name": "vred_lib:tap_sneak/chest"},
+    {"condition": "reference",
+    "name": "vred_lib:tap_sneak/legs"},
+    {"condition": "reference",
+    "name": "vred_lib:tap_sneak/feet"},
+    {"condition": "reference",
+    "name": "vred_lib:tap_sneak/hand"},
+    {"condition": "reference",
+    "name": "vred_lib:tap_sneak/mainhand"},
+    {"condition": "reference",
+    "name": "vred_lib:tap_sneak/offhand"}
+    ]
+  }
+  

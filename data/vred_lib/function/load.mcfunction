@@ -11,4 +11,7 @@ scoreboard objectives add vred_lib.iss.mana dummy
 scoreboard objectives add page.c dummy
 scoreboard objectives add iss_compat dummy
 scoreboard objectives add weapon_upgrades dummy
+
+scoreboard objectives add component.tap_sneak minecraft.custom:sneak_time
+scoreboard objectives add component.tap_sneak1 dummy
 function #vred_lib:load
