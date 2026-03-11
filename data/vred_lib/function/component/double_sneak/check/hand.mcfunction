@@ -1,0 +1,4 @@
+execute if items entity @s weapon.mainhand *[custom_data~{vred_lib:{mainhand:{double_sneak_effect:true}}}] run function vred_lib:component/double_sneak/check/a {slot:"weapon.mainhand"}
+execute if items entity @s weapon.mainhand *[custom_data~{vred_lib:{double_sneak_effect:true}}] run function vred_lib:component/double_sneak/check/a {slot:"weapon.mainhand"}
+execute if items entity @s weapon.offhand *[custom_data~{vred_lib:{offhand:{double_sneak_effect:true}}}] run function vred_lib:component/double_sneak/check/a {slot:"weapon.offhand"}
+execute if items entity @s weapon.offhand *[custom_data~{vred_lib:{double_sneak_effect:true}}] run function vred_lib:component/double_sneak/check/a {slot:"weapon.offhand"}

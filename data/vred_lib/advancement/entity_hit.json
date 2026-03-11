@@ -1,18 +1,26 @@
 {
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:entity_hurt_player",
+        "trigger": "minecraft:player_hurt_entity",
         "conditions": {
-          "player": {
-            "equipment": {
-              "mainhand": {
-                "predicates": {
-              "minecraft:custom_data": "{vred_lib:{entity_hit_effect:true}}"
+          "player": [
+            {"condition": "reference",
+          "name": "vred_lib:entity_hit_effect"}
+          ]
+        
+        
+    ,"entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:interaction"
               }
             }
           }
-        }
-      }}
+        ]}}
     },
     "rewards": {
       "function": "vred_lib:component/entity_hit/1"

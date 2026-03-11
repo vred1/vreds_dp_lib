@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand *[custom_data~{vred_lib:{mainhand:{on_kill_effect:true}}}] run function vred_lib:component/on_kill/check/a {slot:"weapon.mainhand"}
+execute if items entity @s weapon.mainhand *[custom_data~{vred_lib:{on_kill_effect:true}}] run function vred_lib:component/on_kill/check/a {slot:"weapon.mainhand"}

@@ -3,15 +3,12 @@
       "requirement": {
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
-          "player": {
-            "equipment": {
-              "mainhand": {
-                "predicates": {
-              "minecraft:custom_data": "{vred_lib:{on_hit_effect:true}}"
-              }
-            }
-          }
-        },"entity": [
+          "player": [
+            {"condition": "reference",
+          "name": "vred_lib:on_hit_effect"}
+          ]
+        
+    ,"entity": [
           {
             "condition": "minecraft:inverted",
             "term": {
@@ -22,8 +19,7 @@
               }
             }
           }
-        ]
-      }}
+        ]}}
     },
     "rewards": {
       "function": "vred_lib:component/on_hit/1"

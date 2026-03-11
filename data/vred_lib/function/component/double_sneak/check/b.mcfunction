@@ -1,0 +1,9 @@
+execute if predicate vred_lib:double_sneak/all run function vred_lib:component/double_sneak/check/all
+execute if predicate vred_lib:double_sneak/armor run function vred_lib:component/double_sneak/check/armor
+execute if predicate vred_lib:double_sneak/hand run function vred_lib:component/double_sneak/check/hand
+execute if predicate vred_lib:double_sneak/mainhand run function vred_lib:component/double_sneak/check/mainhand
+execute if predicate vred_lib:double_sneak/offhand run function vred_lib:component/double_sneak/check/offhand
+execute if predicate vred_lib:double_sneak/head run function vred_lib:component/double_sneak/check/head
+execute if predicate vred_lib:double_sneak/chest run function vred_lib:component/double_sneak/check/chest
+execute if predicate vred_lib:double_sneak/legs run function vred_lib:component/double_sneak/check/legs
+execute if predicate vred_lib:double_sneak/feet run function vred_lib:component/double_sneak/check/feet

@@ -3,15 +3,12 @@
       "requirement": {
         "trigger": "minecraft:player_killed_entity",
         "conditions": {
-          "player": {
-            "equipment": {
-              "mainhand": {
-                "predicates": {
-              "minecraft:custom_data": "{vred_lib:{on_kill_effect:true}}"
-              }
-            }
-          }
-        },"entity": [
+          "player": [
+            {"condition": "reference",
+          "name": "vred_lib:on_kill_effect"}
+          ]
+        
+    ,"entity": [
           {
             "condition": "minecraft:inverted",
             "term": {
@@ -22,8 +19,7 @@
               }
             }
           }
-        ]
-      }}
+        ]}}
     },
     "rewards": {
       "function": "vred_lib:component/on_kill/1"

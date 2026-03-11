@@ -1,0 +1,9 @@
+execute if predicate vred_lib:on_hit/all run function vred_lib:component/on_hit/check/all
+execute if predicate vred_lib:on_hit/armor run function vred_lib:component/on_hit/check/armor
+execute if predicate vred_lib:on_hit/hand run function vred_lib:component/on_hit/check/hand
+execute if predicate vred_lib:on_hit/mainhand run function vred_lib:component/on_hit/check/mainhand
+execute if predicate vred_lib:on_hit/offhand run function vred_lib:component/on_hit/check/offhand
+execute if predicate vred_lib:on_hit/head run function vred_lib:component/on_hit/check/head
+execute if predicate vred_lib:on_hit/chest run function vred_lib:component/on_hit/check/chest
+execute if predicate vred_lib:on_hit/legs run function vred_lib:component/on_hit/check/legs
+execute if predicate vred_lib:on_hit/feet run function vred_lib:component/on_hit/check/feet
