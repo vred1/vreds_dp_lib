@@ -1,0 +1,1 @@
+$scoreboard players set @s vred_lib.id $(owner_id)
