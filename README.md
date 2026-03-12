@@ -12,3 +12,4 @@ This tools is split into different sections:
 
 Check the wiki to see how stuff works!
 
+# Credit to https://modrinth.com/datapack/player_motion for the player motion code :eyes:
